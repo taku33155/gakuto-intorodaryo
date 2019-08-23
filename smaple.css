@@ -1,0 +1,97 @@
+.header{
+	height: 50px;
+	background-color: skyblue;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.welcome{
+	height: 600px;
+	background-color: black;
+	display: flex;
+	background-image: url("file:///C:/Users/Guest1/Desktop/55web/1w/flexbox/img/ie.jpg");
+background-repeat: round;
+
+}
+
+.mein{
+	height: 600px;
+	background-color: pink;
+	
+}
+
+.programming {
+	display: flex;
+justify-content: space-between;
+	background-color: yellow;
+}
+
+
+
+.menu{
+	display: flex;
+}
+
+.px{
+	font-size: 50px;
+
+}
+
+
+.g {
+	margin-left:300px;
+ 
+  background: #000;
+  animation: rotation 2s ease 0s 1 alternate none running;
+ 
+}
+
+@keyframes rotation {
+  0% {
+    transform: scale(.3);
+  }
+
+  50% {
+    transform: scale(.6) rotate(-45deg);
+    background: red;
+  }
+
+  100% {
+    transform: scale(1) rotate(180deg);
+    background: blue;
+  }
+}
+	
+
+
+.gakuto{
+	font-size: 30px;
+	justify-content: space-between;
+	font-weight: bold;
+
+}
+
+
+
+.english{
+	background: radial-gradient(#F2B9A1, #EA6264);
+	font-family: 'SimSun'
+}
+
+.type{
+	font-size: 40px;
+	
+	justify-content: space-between;
+}
+.yoko{
+	display: flex;
+	flex-direction: row;
+	font-size: 40px
+}
+.ZOZOTOWN{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 50px
+}
+
